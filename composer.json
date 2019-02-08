@@ -1,0 +1,14 @@
+{
+    "name": "Ikamai Imsearch 7.0",
+    "require": {
+        "google/cloud-pubsub": "^1.8",
+        "pimple/pimple": "^3.0",
+        "vlucas/phpdotenv": "^2.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "App\\Controller\\": "app/controller/"
+        }
+    }
+}
